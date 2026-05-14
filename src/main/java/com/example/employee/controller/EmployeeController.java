@@ -24,21 +24,18 @@ public class EmployeeController {
         return employeeService.addEmployee(employee);
     }
 
-    // Hello API
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello from lcal";
+        return "Hello from local";
     }
 
-    // Bye API
     @GetMapping("/bye")
     public String sayBye() {
-        return "Bye from lcal";
+        return "Bye from local";
     }
 
-    // Bye API
     @GetMapping("/hello1")
     public String sayHellow1() {
-        return "Bye from lcal";
+        return "Bye from local";
     }
 }
