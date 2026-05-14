@@ -35,4 +35,10 @@ public class EmployeeController {
     public String sayBye() {
         return "Bye from lcal";
     }
+
+    // Bye API
+    @GetMapping("/hello1")
+    public String sayHellow1() {
+        return "Bye from lcal";
+    }
 }
