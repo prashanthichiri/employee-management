@@ -28,14 +28,4 @@ public class EmployeeController {
     public String sayHello() {
         return "Hello from local";
     }
-
-    @GetMapping("/bye")
-    public String sayBye() {
-        return "Bye from local";
-    }
-
-    @GetMapping("/hello1")
-    public String sayHellow1() {
-        return "Bye from local";
-    }
 }
